@@ -29,7 +29,7 @@ export default function HimpunSurvei() {
                             <div key={index} className="grid grid-cols-6 hover:bg-purple-50 transition-colors">
                                 <div className="flex justify-center items-center border px-1 py-2">{item.name || "-"}</div>
                                 <div className="flex justify-center items-center border px-1 py-2">{item.age || "-"}</div>
-                                <div className="flex justify-center items-center border px-1 py-2">{item.jeniKelamin || "-"}</div>
+                                <div className="flex justify-center items-center border px-1 py-2">{item.jenisKelamin || "-"}</div>
                                 <div className="flex justify-center items-center border px-1 py-2">{item.doUsmoke === "y" ? "Yes" : "No"}</div>
                                 <div className="grid col-span-2 justify-center items-center border px-1 py-2">
                                     {Array.isArray(item.cigaratte) ? item.cigaratte.join(", ") : item.cigaratte || "-"}
