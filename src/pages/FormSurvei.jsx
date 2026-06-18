@@ -30,7 +30,6 @@ export default function FormSurvei() {
     const [isSmoke, setIsSmoke] = useState(false);
     const [isSucces, setIsSucces] = useState(false);
 
-
     async function hendleForm(event) {
         event.preventDefault();
 
